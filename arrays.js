@@ -40,4 +40,7 @@ function removeElementFromEndOfArray(array) {
   return newArray
 }
 
-
+function addElementToEndOfArray(array, element) {
+  var newArray = [array, ...element]
+  return newArray
+}
