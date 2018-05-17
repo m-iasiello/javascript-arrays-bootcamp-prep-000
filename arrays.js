@@ -40,4 +40,3 @@ function removeElementFromEndOfArry(array) {
   return newArray
 }
 
-
