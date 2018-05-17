@@ -13,3 +13,8 @@ function destructivelyAddElementToBeginningOfArray(array, element) {
   array.unshift(element)
   return array
 }
+
+//access array element
+function accessElementInArray(array, index) {
+  return array[index]
+}
